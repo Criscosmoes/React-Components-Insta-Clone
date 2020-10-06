@@ -54,6 +54,58 @@ const dummyData = [
             },
         ],
     },
+    {
+        id: 3, 
+        username: "twitter", 
+        thumbnailUrl: 'https://i.pinimg.com/736x/db/d3/fc/dbd3fcb0ef6fdbe197dea72fa7414c6d.jpg', 
+        imageUrl: 'https://images.unsplash.com/photo-1507646227500-4d389b0012be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80', 
+        likes: 234, 
+        timestamp: "July 5th 2017, 03:23:08 pm", 
+        comments: [
+            {
+                id: 40, 
+                username: 'michealjohn', 
+                text: 'Great Picture!', 
+            },
+            {
+                id: 41, 
+                username: 'crisesque', 
+                text: 'I have this as well!',
+            }, 
+            {
+                id: 42,
+                username: 'cynthiaa.t',  
+                text: 'Are those airpods?', 
+            }
+
+        ]
+    }, 
+    {
+        id: 4, 
+        username: "twitter", 
+        thumbnailUrl: 'https://i.pinimg.com/736x/db/d3/fc/dbd3fcb0ef6fdbe197dea72fa7414c6d.jpg', 
+        imageUrl: 'https://images.unsplash.com/photo-1507646227500-4d389b0012be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80', 
+        likes: 234, 
+        timestamp: "July 5th 2017, 03:23:08 pm", 
+        comments: [
+            {
+                id: 40, 
+                username: 'michealjohn', 
+                text: 'Great Picture!', 
+            },
+            {
+                id: 41, 
+                username: 'crisesque', 
+                text: 'I have this as well!',
+            }, 
+            {
+                id: 42,
+                username: 'cynthiaa.t',  
+                text: 'Are those airpods?', 
+            }
+
+        ]
+    }
 ];
 
 export default dummyData;
